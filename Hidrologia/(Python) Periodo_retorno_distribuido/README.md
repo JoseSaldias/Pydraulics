@@ -1,5 +1,4 @@
-# Pydraulics
-Periodo de retorno distribuido
+# Periodo de retorno distribuido
 
 ## Disponibilidad de archivos
 Datos de precipitacion y observacionales [CR2](cr2.cl)
