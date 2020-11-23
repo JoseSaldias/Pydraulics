@@ -1,6 +1,6 @@
 # Detalle de códigos
 
-## vaciamiento estanque.py
+## Columna rígida/vaciamiento estanque.py
 
 Las ecuaciones de columna rígida corresponde a una simplificación del modelo elástico, endonde la velocidad de la onda mecánica es mucho mayor a la velocidad del fluido.
 
