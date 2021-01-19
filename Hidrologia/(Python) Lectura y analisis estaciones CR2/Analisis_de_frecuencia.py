@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """ Descripción
-Análisis de frecuencia
+Análisis de frecuencia anual precipitaciones de 24h de duración
 Archivos compilados de datos observacionales CR2 
 
 Sitio web: http://www.cr2.cl/datos-de-precipitacion/
@@ -109,5 +109,5 @@ df = df.resample('YS').max().dropna()
 distribuciones = [ss.gumbel_r, ss.pearson3, ss.lognorm, ss.rayleigh,
                   ss.invgamma, ss.loggamma]
 
-#resultados de ajhuste
+#resultados de ajuste
 dist, chi_e, chi_m = mejor_distribucion(df, distribuciones)
